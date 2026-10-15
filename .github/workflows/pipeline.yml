@@ -1,0 +1,10 @@
+name: Pipeline de prueba
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ejecutar orden echo
+        run: echo "Pipeline de prueba de... angel"
